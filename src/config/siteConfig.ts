@@ -14,7 +14,7 @@ export const siteConfig = {
    * `public/logo.jpg`, and change this to "/logo.jpg".
    */
   logoUrl:
-    "/src/config/661609382_18069571496355092_5569769695460419819_n.jpg",
+    "/logo.jpg",
 
   /** Opens the native Google review prompt for your business/place. */
   googleReviewUrl:
