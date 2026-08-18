@@ -14,7 +14,7 @@ export const siteConfig = {
    * `public/logo.jpg`, and change this to "/logo.jpg".
    */
   logoUrl:
-    "https://scontent-dus1-1.cdninstagram.com/v/t51.82787-19/661609382_18069571496355092_5569769695460419819_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40NjQuYzIifQ&_nc_ht=scontent-dus1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGkcM8PKuec0TJlop0ywBnFpCwflR4a5BHHoWnQhV0aC4LCjEz9wJOtCdeQFBmHN19czWIQ9S70aLuj7IQOH1O0&_nc_ohc=g2ray8q0F0wQ7kNvwEY3Tzs&_nc_gid=met9Jir-EpjH3_SsN2RGJA&edm=AEYEu-QBAAAA&ccb=7-5&oh=00_AQGwXUnL1vrCa8bknk_pY6D4b5oVe8cHXc110no9vrFfxg&oe=6A8A3478&_nc_sid=ead929",
+    "/src/config/661609382_18069571496355092_5569769695460419819_n.jpg",
 
   /** Opens the native Google review prompt for your business/place. */
   googleReviewUrl:
