@@ -28,7 +28,7 @@ export const siteConfig = {
   privateFeedbackEmail: "owner@nimabreakfastmore.com",
 
   socialLinks: {
-    instagram: "https://instagram.com/yourhandle",
+    instagram: "https://www.instagram.com/nimabreakfastmore/",
     booking: "https://booksy.com/yourlink",
   },
 
