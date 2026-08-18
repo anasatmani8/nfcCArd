@@ -17,7 +17,7 @@ Built with Next.js 16 (App Router), React 19, and Tailwind CSS 4.
      POSTs to `/api/feedback`, which emails it to `privateFeedbackEmail` via
      [Web3Forms](https://web3forms.com), and shows a thank-you confirmation.
 3. Footer links to Instagram and your booking page are always visible.
-4. A language toggle (EN/PL) switches all UI copy — the default is set by
+4. A language toggle (EN/DE) switches all UI copy — the default is set by
    `defaultLanguage` in the config.
 
 ## 1. Customize your business
@@ -34,11 +34,11 @@ export const siteConfig = {
     instagram: "...",
     booking: "...",
   },
-  defaultLanguage: "en",          // "en" | "pl"
+  defaultLanguage: "en",          // "en" | "de"
 };
 ```
 
-Text strings (English + Polish) live in `src/lib/translations.ts` if you
+Text strings (English + German) live in `src/lib/translations.ts` if you
 want to tweak wording or add another language.
 
 ### ⚠️ About the logo URL
@@ -165,5 +165,5 @@ src/
   config/
     siteConfig.ts          # ← business variables live here
   lib/
-    translations.ts        # EN/PL copy
+    translations.ts        # EN/DE copy
 ```

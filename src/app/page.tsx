@@ -24,11 +24,11 @@ export default function Home() {
     <main className="flex min-h-dvh flex-col items-center bg-gradient-to-b from-slate-50 to-slate-100 px-5 py-10">
       <button
         type="button"
-        onClick={() => setLanguage(language === "en" ? "pl" : "en")}
+        onClick={() => setLanguage(language === "en" ? "de" : "en")}
         className="self-end rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-semibold text-slate-500 shadow-sm"
         aria-label="Switch language"
       >
-        {language === "en" ? "PL" : "EN"}
+        {language === "en" ? "DE" : "EN"}
       </button>
 
       <div className="mt-4 flex w-full max-w-sm flex-1 flex-col items-center">

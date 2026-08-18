@@ -1,4 +1,4 @@
-export type Language = "en" | "pl";
+export type Language = "en" | "de";
 
 export const translations = {
   en: {
@@ -16,19 +16,19 @@ export const translations = {
     bookAppointment: "Book an appointment",
     ratedLabel: (n: number) => `You rated ${n} out of 5 stars`,
   },
-  pl: {
-    prompt: "Jak minęła Twoja wizyta u nas?",
-    tapAStar: "Stuknij gwiazdkę, aby ocenić",
-    writeGoogleReview: "Napisz opinię w Google",
-    feedbackHeading: "Napisz, co poszło nie tak",
-    feedbackPlaceholder: "Twoja opinia pomoże nam się poprawić...",
-    sendPrivately: "Wyślij prywatnie do szefa",
-    sending: "Wysyłanie...",
-    thankYouTitle: "Dziękujemy za opinię",
-    thankYouBody: "Zajmiemy się tym osobiście.",
-    errorMessage: "Coś poszło nie tak. Spróbuj ponownie.",
-    followInstagram: "nimabreakfastmore",
-    bookAppointment: "Zarezerwuj w Booksy",
-    ratedLabel: (n: number) => `Oceniono na ${n} z 5 gwiazdek`,
+  de: {
+    prompt: "Wie war Ihr Erlebnis bei uns?",
+    tapAStar: "Tippen Sie auf einen Stern, um zu bewerten",
+    writeGoogleReview: "Bewertung bei Google schreiben",
+    feedbackHeading: "Was ist schiefgelaufen?",
+    feedbackPlaceholder: "Ihr Feedback hilft uns, besser zu werden...",
+    sendPrivately: "Privat an die Geschäftsleitung senden",
+    sending: "Wird gesendet...",
+    thankYouTitle: "Vielen Dank für Ihr Feedback",
+    thankYouBody: "Wir werden uns persönlich darum kümmern.",
+    errorMessage: "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    followInstagram: "Folgen Sie uns auf Instagram",
+    bookAppointment: "Termin buchen",
+    ratedLabel: (n: number) => `Sie haben ${n} von 5 Sternen vergeben`,
   },
 } as const satisfies Record<Language, Record<string, unknown>>;

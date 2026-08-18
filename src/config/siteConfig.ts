@@ -32,7 +32,7 @@ export const siteConfig = {
     booking: "https://booksy.com/yourlink",
   },
 
-  /** "en" or "pl" — controls which language the page opens in by default. */
+  /** "en" or "de" — controls which language the page opens in by default. */
   defaultLanguage: "en" as const,
 } satisfies {
   businessName: string;
@@ -40,7 +40,7 @@ export const siteConfig = {
   googleReviewUrl: string;
   privateFeedbackEmail: string;
   socialLinks: { instagram: string; booking: string };
-  defaultLanguage: "en" | "pl";
+  defaultLanguage: "en" | "de";
 };
 
 export type SiteConfig = typeof siteConfig;
