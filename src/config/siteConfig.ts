@@ -18,7 +18,7 @@ export const siteConfig = {
 
   /** Opens the native Google review prompt for your business/place. */
   googleReviewUrl:
-    "https://www.google.com/maps/place/Theaterpl.+5,+52062+Aachen/@50.7728546,6.0873777,16z/data=!3m1!4b1!4m6!3m5!1s0x47c09962fe3af6a3:0xe3c88de42ea8b549!8m2!3d50.7728546!4d6.0873777!16s%2Fg%2F11b8v5_gv0!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "https://search.google.com/local/writereview?placeid=ChIJHWmDhWSZwEcRmQMgne1p1wM",
 
   /**
    * Where private (1-3 star) feedback gets delivered. Used as the
