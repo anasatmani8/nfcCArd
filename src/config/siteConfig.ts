@@ -3,7 +3,7 @@
 
 export const siteConfig = {
   /** Business name shown under the logo. */
-  businessName: "nimabreakfastmore",
+  businessName: "ANK Nails Beauty&More",
 
   /**
    * Logo shown at the top of the page.
@@ -14,7 +14,7 @@ export const siteConfig = {
    * `public/logo.jpg`, and change this to "/logo.jpg".
    */
   logoUrl:
-    "/logo.jpg",
+    "/nails.jpg",
 
   /** Opens the native Google review prompt for your business/place. */
   googleReviewUrl:
@@ -28,7 +28,7 @@ export const siteConfig = {
   privateFeedbackEmail: "owner@nimabreakfastmore.com",
 
   socialLinks: {
-    instagram: "https://www.instagram.com/nimabreakfastmore/",
+    instagram: "https://www.instagram.com/ank_nails96/",
     booking: "https://booksy.com/yourlink",
   },
 
